@@ -1,155 +1,126 @@
-# Callum Greig — Software Development Portfolio
+# Callum Greig --- Software Development Portfolio
 
 ## Overview
-This portfolio showcases a range of projects covering core areas of software development:
 
-- **Data Structures & Algorithms**
-- **Artificial Intelligence (Search Algorithms)**
-- **Full-Stack Web Development**
-- **Mobile Application Development**
-- **Data Analysis & Machine Learning**
+This portfolio showcases a range of projects covering core areas of
+software development:
 
-The projects demonstrate both **foundational understanding** (building structures from scratch) and **applied development** (real-world systems and tools).
+-   **Data Structures & Algorithms**
+-   **Artificial Intelligence (Search Algorithms)**
+-   **Full-Stack Web Development**
+-   **Mobile Application Development**
+-   **Data Analysis & Machine Learning**
 
----
+The projects demonstrate both **foundational understanding** (building
+structures from scratch) and **applied development** (real-world systems
+and tools).
+
+------------------------------------------------------------------------
 
 ## Projects
 
-### 1. Data Structures in Python
-Custom implementations of fundamental data structures built from scratch.
+### 1. Artbook --- Artwork Portfolio & CMS (Full Stack)
 
-**Includes:**
-- Stack (Linked List)
-- Hash Map (custom implementation with collision handling)
-- Circular Queue (fixed-size with wrap-around indexing)
+A full-stack content management system built for showcasing digital
+artwork, with a secure admin interface and image processing pipeline.
 
-**Concepts:**
-- Memory organisation
-- Algorithmic efficiency (O(1) operations)
-- Hashing and collision handling
-- Pointer-based structures
+**Features:** - Secure admin dashboard with session-based
+authentication - Artwork upload with server-side processing (Sharp) -
+Private storage of original images with public display versions -
+Watermarking support and controlled image delivery - Publish/unpublish
+and featured artwork workflow - Public gallery and artwork detail
+pages - Contact form with privacy-conscious data handling
 
-🔗 *Repo:* `data_structures/`
-https://github.com/cal-greig/Data-Structures.git
+**Tech Stack:** - Next.js (frontend + API routes) - SQLite (database) -
+Tailwind CSS (styling) - Sharp (image processing)
 
----
+**Concepts:** - Full-stack architecture - File handling and secure
+upload pipelines - Session-based authentication - Data privacy and
+GDPR-aware design - Separation of concerns via service layer
 
-### 2. Sheepherding Puzzle — A* Search
-An informed search implementation solving an optimisation problem using A*.
+🔗 Repo: https://github.com/cal-greig/artbook-cms
 
-**Highlights:**
-- Custom state-space modelling
-- Admissible heuristic design
-- Cost optimisation using `f(n) = g(n) + h(n)`
-- Debugging and correcting hash/equality contract issues
+------------------------------------------------------------------------
 
-**Key learning:**
-Subtle implementation details (such as hashing consistency) can significantly impact correctness in search algorithms.
+### 2. Data Structures in Python
 
-🔗 *Repo:* `sheepherding_puzzle/`
-https://github.com/cal-greig/Sheep-Herding-Puzzle.git
+Custom implementations of fundamental data structures built from
+scratch.
 
----
+**Includes:** - Stack (Linked List) - Hash Map (custom implementation
+with collision handling) - Circular Queue (fixed-size with wrap-around
+indexing)
 
-### 3. Garage Management System (Full Stack)
-A full-stack web application designed for managing a small automotive workshop.
+**Concepts:** - Memory organisation - Algorithmic efficiency (O(1)
+operations) - Hashing and collision handling - Pointer-based structures
 
-**Features:**
-- Job tracking and scheduling
-- Quotes and invoicing
-- Inventory management
-- User roles and authentication
-- Analytics dashboard
+🔗 Repo: https://github.com/cal-greig/Data-Structures.git
 
-**Tech Stack:**
-- PHP (backend)
-- MySQL (database)
-- HTML/CSS/Bootstrap (frontend)
+------------------------------------------------------------------------
 
-**Concepts:**
-- Relational database design
-- Secure authentication
-- CRUD systems
-- Real-world workflow modelling
+### 3. Sheepherding Puzzle --- A\* Search
 
-🔗 *Repo:* `garage-system/`
-https://github.com/cal-greig/Garage-system.git
+An informed search implementation solving an optimisation problem using
+A\*.
 
----
+**Highlights:** - Custom state-space modelling - Admissible heuristic
+design - Cost optimisation using f(n) = g(n) + h(n) - Debugging and
+correcting hash/equality contract issues
 
-### 4. Geo-Alarm (Flutter App)
-🚧 *In active development (private repository)*
+🔗 Repo: https://github.com/cal-greig/Sheep-Herding-Puzzle.git
 
-A mobile application designed to trigger alerts based on geographic location.
+------------------------------------------------------------------------
 
-**Focus areas:**
-- Location tracking and distance-based triggering
-- Accessibility-focused alert design (sound + vibration)
-- Battery-efficient polling strategies
+### 4. Garage Management System (Full Stack)
 
----
+A full-stack web application designed for managing a small automotive
+workshop.
 
-### 5. Honours Project — Data Analysis & Machine Learning
-🚧 *Refactoring in progress (private repository)*
+**Features:** - Job tracking and scheduling - Quotes and invoicing -
+Inventory management - User roles and authentication - Analytics
+dashboard
 
-A multi-year analysis of benefits, wealth, and consumer spending using R.
+**Tech Stack:** - PHP (backend) - MySQL (database) - HTML/CSS/Bootstrap
+(frontend)
 
-**Focus areas:**
-- Resolving dataset inconsistencies across years
-- Improving data joins and category alignment
-- Structuring the analysis into a reproducible pipeline
-- Extending modelling beyond the original submission
+🔗 Repo: https://github.com/cal-greig/Garage-system.git
 
----
+------------------------------------------------------------------------
+
+### 5. Geo-Alarm (Flutter App)
+
+🚧 In active development (private repository)
+
+A mobile application designed to trigger alerts based on geographic
+location.
+
+------------------------------------------------------------------------
+
+### 6. Honours Project --- Data Analysis & Machine Learning
+
+🚧 Refactoring in progress (private repository)
+
+------------------------------------------------------------------------
 
 ## Skills Demonstrated
 
 ### Programming
-- Python, JavaScript, PHP, SQL, R
-- Object-oriented programming
-- Algorithm implementation
 
-### Data & AI
-- A* search
-- Heuristic design
-- Regression models
-- Random forests
+-   Python, JavaScript, PHP, SQL, R
 
 ### Web Development
-- Full-stack development
-- REST-style workflows
-- Authentication and session handling
-- Database design
+
+-   Full-stack development
+-   Authentication and session handling
+-   Database design
 
 ### Software Engineering
-- Debugging complex issues
-- Refactoring coursework into production-quality code
-- Writing clear technical documentation
-- Structuring maintainable projects
 
----
+-   Debugging complex issues
+-   Writing clear technical documentation
+-   Structuring maintainable projects
 
-## Development Approach
-
-A key focus of this portfolio is not just building working code, but:
-
-- understanding how systems work internally  
-- identifying and fixing subtle correctness issues  
-- improving earlier work with better design decisions  
-- writing code that is explainable and maintainable  
-
----
-
-## Notes
-
-Many of these projects began as coursework and were later **refactored and improved** to better reflect real-world development standards.
-
-This includes:
-- fixing logic and correctness issues  
-- improving structure and readability  
-- adding proper documentation  
-
----
+------------------------------------------------------------------------
 
 ## Contact
 
