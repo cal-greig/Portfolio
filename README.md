@@ -1,125 +1,189 @@
-# Callum Greig --- Software Development Portfolio
+# Callum Greig — Software Development Portfolio
 
 ## Overview
 
-This portfolio showcases a range of projects covering core areas of
-software development:
+This portfolio showcases projects across core areas of software development, combining **foundational computer science concepts** with **practical, real-world application development**.
 
--   **Data Structures & Algorithms**
--   **Artificial Intelligence (Search Algorithms)**
--   **Full-Stack Web Development**
--   **Mobile Application Development**
--   **Data Analysis & Machine Learning**
+Areas covered include:
 
-The projects demonstrate both **foundational understanding** (building
-structures from scratch) and **applied development** (real-world systems
-and tools).
+- **Data Structures & Algorithms**
+- **Artificial Intelligence / Search Algorithms**
+- **Full-Stack Web Development**
+- **Mobile Application Development**
+- **Data Analysis & Machine Learning**
 
-------------------------------------------------------------------------
+The projects below highlight both problem-solving fundamentals and the ability to design, build, test, and document complete software systems.
 
-## Projects
+---
 
-### 1. Artbook --- Artwork Portfolio & CMS (Full Stack)
+## Featured Projects
 
-A full-stack content management system built for showcasing digital
-artwork, with a secure admin interface and image processing pipeline.
+### 1. Geo Alarm — Location-Based Alert App (Flutter / Android)
 
-**Features:** - Secure admin dashboard with session-based
-authentication - Artwork upload with server-side processing (Sharp) -
-Private storage of original images with public display versions -
-Watermarking support and controlled image delivery - Publish/unpublish
-and featured artwork workflow - Public gallery and artwork detail
-pages - Contact form with privacy-conscious data handling
+A mobile application built to solve a practical commuting problem: alerting users when they are approaching or arriving at a selected destination.
 
-**Tech Stack:** - Next.js (frontend + API routes) - SQLite (database) -
-Tailwind CSS (styling) - Sharp (image processing)
+**Highlights**
+- Real-time GPS distance tracking
+- Destination search using OpenStreetMap (Nominatim)
+- Manual coordinate entry and saved destinations
+- Background tracking on Android via a native foreground service
+- Configurable early-alert and arrival-alert zones
+- Sound, vibration, theme, and persistence settings
+- Real-world tested on a live commute with low battery impact
 
-**Concepts:** - Full-stack architecture - File handling and secure
-upload pipelines - Session-based authentication - Data privacy and
-GDPR-aware design - Separation of concerns via service layer
+**Tech Stack**
+- Flutter (Dart)
+- Kotlin (Android foreground service / platform integration)
+- Provider
+- SharedPreferences
+- OpenStreetMap / Nominatim API
+
+**Concepts Demonstrated**
+- Cross-platform mobile development
+- Native Android integration from Flutter
+- Background processing and system constraints
+- API integration using a free/open mapping stack
+- Real-world testing and UX validation
+
+🔗 Repo: https://github.com/cal-greig/geo_alarm
+
+---
+
+### 2. Artbook — Artwork Portfolio & CMS (Full Stack)
+
+A full-stack content management system designed for showcasing digital artwork through a secure admin interface and controlled image delivery pipeline.
+
+**Highlights**
+- Secure admin dashboard with session-based authentication
+- Artwork upload with server-side image processing
+- Publish/unpublish and featured artwork workflow
+- Watermarking support and protected image delivery
+- Public gallery and artwork detail pages
+- Privacy-conscious handling of uploaded content
+
+**Tech Stack**
+- Next.js
+- SQLite
+- Tailwind CSS
+- Sharp
+
+**Concepts Demonstrated**
+- Full-stack architecture
+- Authentication and session handling
+- Secure file handling and upload pipelines
+- Data privacy and GDPR-aware design
+- Separation of concerns via service layers
 
 🔗 Repo: https://github.com/cal-greig/artbook-cms
 
-------------------------------------------------------------------------
+---
 
-### 2. Data Structures in Python
+### 3. Garage Management System (Full Stack)
 
-Custom implementations of fundamental data structures built from
-scratch.
+A web application designed to support the day-to-day workflow of a small automotive workshop.
 
-**Includes:** - Stack (Linked List) - Hash Map (custom implementation
-with collision handling) - Circular Queue (fixed-size with wrap-around
-indexing)
+**Highlights**
+- Job tracking and scheduling
+- Quotes and invoicing
+- Inventory management
+- User roles and authentication
+- Basic business analytics
 
-**Concepts:** - Memory organisation - Algorithmic efficiency (O(1)
-operations) - Hashing and collision handling - Pointer-based structures
+**Tech Stack**
+- PHP
+- MySQL
+- HTML / CSS / Bootstrap
 
-🔗 Repo: https://github.com/cal-greig/Data-Structures.git
+**Concepts Demonstrated**
+- CRUD-heavy business application design
+- Relational database modelling
+- Authentication and role-based access
+- Practical workflow-focused software design
 
-------------------------------------------------------------------------
+🔗 Repo: https://github.com/cal-greig/Garage-system
 
-### 3. Sheepherding Puzzle --- A\* Search
+---
 
-An informed search implementation solving an optimisation problem using
-A\*.
+### 4. Sheepherding Puzzle — A* Search
 
-**Highlights:** - Custom state-space modelling - Admissible heuristic
-design - Cost optimisation using f(n) = g(n) + h(n) - Debugging and
-correcting hash/equality contract issues
+An informed search project focused on solving an optimisation problem using A*.
 
-🔗 Repo: https://github.com/cal-greig/Sheep-Herding-Puzzle.git
+**Highlights**
+- Custom state-space modelling
+- Heuristic design
+- Cost optimisation using `f(n) = g(n) + h(n)`
+- Debugging equality / hashing behaviour in search states
 
-------------------------------------------------------------------------
+**Concepts Demonstrated**
+- Search algorithms
+- Heuristic reasoning
+- State modelling
+- Correctness and debugging of algorithmic implementations
 
-### 4. Garage Management System (Full Stack)
+🔗 Repo: https://github.com/cal-greig/Sheep-Herding-Puzzle
 
-A full-stack web application designed for managing a small automotive
-workshop.
+---
 
-**Features:** - Job tracking and scheduling - Quotes and invoicing -
-Inventory management - User roles and authentication - Analytics
-dashboard
+### 5. Data Structures in Python
 
-**Tech Stack:** - PHP (backend) - MySQL (database) - HTML/CSS/Bootstrap
-(frontend)
+Custom implementations of core data structures built from scratch to reinforce understanding of how they work internally.
 
-🔗 Repo: https://github.com/cal-greig/Garage-system.git
+**Includes**
+- Stack (linked list based)
+- Hash map with collision handling
+- Circular queue with wrap-around indexing
 
-------------------------------------------------------------------------
+**Concepts Demonstrated**
+- Memory organisation
+- Time complexity and O(1) operations
+- Hashing and collision handling
+- Pointer-based / linked structures
 
-### 5. Geo-Alarm (Flutter App)
+🔗 Repo: https://github.com/cal-greig/Data-Structures
 
-A mobile application designed to trigger alerts based on geographic
-location.
-🔗 Repo: https://github.com/cal-greig/geo_alarm.git
-------------------------------------------------------------------------
+---
 
-### 6. Honours Project --- Data Analysis & Machine Learning
+### 6. Honours Project — Data Analysis & Machine Learning
+
+A university project focused on data analysis and machine learning in R, currently being refactored and prepared for publication.
+
+**Planned Focus**
+- Data cleaning and transformation
+- Exploratory analysis
+- Statistical and machine learning workflows
+- Reproducible notebook-based analysis
 
 🚧 Refactoring in progress (private repository)
 
-------------------------------------------------------------------------
+---
 
 ## Skills Demonstrated
 
-### Programming
+### Programming Languages
+- Python
+- JavaScript
+- PHP
+- SQL
+- R
+- Dart
+- Kotlin
 
--   Python, JavaScript, PHP, SQL, R
-
-### Web Development
-
--   Full-stack development
--   Authentication and session handling
--   Database design
+### Development Areas
+- Full-stack web development
+- Mobile application development
+- Background services and platform integration
+- Database design and persistence
+- Algorithm design and implementation
+- Data analysis and machine learning workflows
 
 ### Software Engineering
+- Debugging complex issues across multiple stacks
+- Structuring maintainable, modular projects
+- Writing clear project documentation
+- Making pragmatic design decisions based on cost, platform constraints, and real-world use
 
--   Debugging complex issues
--   Writing clear technical documentation
--   Structuring maintainable projects
-
-------------------------------------------------------------------------
+---
 
 ## Contact
 
-GitHub: https://github.com/cal-greig
+**GitHub:** https://github.com/cal-greig
