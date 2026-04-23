@@ -89,11 +89,9 @@ dashboard
 
 ### 5. Geo-Alarm (Flutter App)
 
-🚧 In active development (private repository)
-
 A mobile application designed to trigger alerts based on geographic
 location.
-
+🔗 Repo: https://github.com/cal-greig/geo_alarm.git
 ------------------------------------------------------------------------
 
 ### 6. Honours Project --- Data Analysis & Machine Learning
